@@ -3,14 +3,6 @@
 
 using namespace std;
 
-class a{
-  public:
-    a(const int&){cout << "default";};
-
-    a(int&&){cout << "move";};
-
-    int A = 2;
-};
 
 int returnInt(){
 	return 2;
