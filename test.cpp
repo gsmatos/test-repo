@@ -1,9 +1,6 @@
 #include <iostream>
 #include <thread>
 
-using namespace std;
-
-
 int returnInt(){
 	return 2;
 }
